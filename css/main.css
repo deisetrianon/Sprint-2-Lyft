@@ -1,3 +1,310 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+  margin: 0;
+  font-family: 'Montserrat',sans-serif;
+}
+
+h3 {
+  font-size: 12px;
+  line-height: 0.1rem;
+}
+
+#header {
+  background-image: url("https://raw.githubusercontent.com/Laboratoria-learning/lyft/master/assets/images/hero.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  width: 100%;
+  height: 545px;
+  box-shadow: inset -20px -100px 80px -20px #76278F;
+}
+
+nav {
+  margin: auto;
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.logo {
+  flex: 1.65;
+  padding-left: 20px;
+}
+
+ul {
+  flex: 1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left; 
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 17px;
+  letter-spacing: 0;
+  text-align: center;
+  padding: 13px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.logIn {
+  background-color: transparent;
+  color: white;
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid white;
+}
+
+.signUpSection {
+  width: 475px;
+  height: 375px;
+  float: right;
+  margin-right: 1px;
+  background-color: white;
+  padding-top: 25px;
+  padding-left: 65px;
+  text-align: left;
+}
+
+.signUpSection h1 {
+  color: #352384;
+  font-size: 35px;
+  font-weight: 600!important;
+  text-transform: uppercase;
+  line-height: 2.5rem;
+  letter-spacing: -1px;
+  margin-bottom: 25px;
+}
+
+.signUpSection h2 {
+  color: #352384;
+  font-size: 20px;
+  font-weight: 600!important;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+
+input[type='text'] {
+  float: left;
+  width: 85%;
+  border-bottom: 1px solid #352384;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #728099;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 5px;
+}
+
+#driverButton {
+  margin-top: 20px;
+  float: left;
+  width: auto;
+  height: auto;
+  padding: 12px;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  background-color: #FF00BF;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#rideSignUp {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: auto;
+  height: auto;
+  padding: 17px;
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+  background-color: transparent;
+  border-radius: 8px;
+  color: #728099;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+
+.signUpSection p {
+  font-size: 10px;
+  color: #728099;
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: 1px;
+}
+
+.signUpSection p a {
+  text-decoration: none;
+  color: #728099;
+}
+
+.signUpSection p a:hover {
+  text-decoration: none;
+  color: #FF00BF;
+}
+
+#phoneSection {
+  width: 100%;
+  height: 655px;
+  background-image: linear-gradient(#76278F, #2B1E66);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phoneTextSection {
+  padding-bottom: 46px;
+  margin-right: 106px;
+  width: 417px;
+}
+
+.phoneTextSection h1 {
+  font-size: 28px;
+  letter-spacing: -1px;
+  line-height: 1.5rem;
+}
+
+.phoneTextSection p {
+  font-size: 14px;
+  line-height: 1.7rem;
+}
+
+.phoneImage {
+  margin-left: 30px;
+  padding-top: 30px;
+}
+
+#firstVideoSection , #secondVideoSection , #thirdVideoSection {
+  width: 100%;
+  height: 505px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: black;
+}
+
+.videoDescription {
+  flex: 1;
+  padding: 40px;
+}
+
+.videoDescription h1 {
+  line-height: 0;
+  font-size: 27px;
+  font-weight: 600!important;
+  margin-bottom: 40px;
+}
+
+.videoPlayer {
+  flex: 2.55;
+  border: none;
+  height: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 520px;
+  background-color: #333447;
+  color: white;
+}
+
+.footerColumns {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 50px;
+  width: 80%;
+  margin-bottom: 0;
+}
+
+.footerColumns > div {
+  width: 20%;
+  height: 300px;
+}
+
+footer h1 {
+  font-size: 20px;
+  font-weight: 600!important;
+}
+
+footer a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 14px;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #FF00BF;
+}
+
+.appStore , .googlePlay , .microsoftStore {
+  width: 135px; 
+  height: 40px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.appStore {
+  margin-top: 40px;
+}
+
+.socialMediaSection {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.socialMediaIcons {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.fa-facebook-f , .fa-twitter {
+  padding-top: 0.3rem;
+}
+
+.fa-instagram {
+  cursor: pointer;
+}
+
+.copyright {
+  font-size: 14px;
+  letter-spacing: -1px;
+  text-align: center;
+  font-weight: 500!important;
+  margin-top: 30px;
+}
