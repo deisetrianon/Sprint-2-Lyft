@@ -9,7 +9,7 @@ h3 {
 }
 
 #header {
-  background-image: url("https://raw.githubusercontent.com/Laboratoria-learning/lyft/master/assets/images/hero.gif");
+  background-image: url("../assets/images/hero.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; 
