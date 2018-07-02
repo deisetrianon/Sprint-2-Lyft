@@ -249,6 +249,10 @@ footer h1 {
   font-weight: 600!important;
 }
 
+footer h1:hover {
+  cursor: text;
+}
+
 footer a {
   display: block;
   text-decoration: none;
