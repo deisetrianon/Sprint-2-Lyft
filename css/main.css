@@ -251,6 +251,7 @@ footer h1 {
 
 footer h1:hover {
   cursor: text;
+  text-decoration: underline;
 }
 
 footer a {
